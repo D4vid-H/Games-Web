@@ -1,0 +1,70 @@
+img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5%;
+    display: block; 
+    margin: 0px auto;
+}
+
+.recuadro__img{
+    margin-top: 6.5rem;
+    box-sizing: border-box;
+    width: max-content;    
+    object-fit: scale-down;
+    border-radius: 5%;
+    border: 3px solid goldenrod;
+    margin-bottom: 2rem;
+}
+
+.text__formato{
+    text-align: center;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;    
+}
+
+.bocadillo-redondo {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    height: 10.8rem;
+    width: 18.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 1px 12px 33px rgb(0 0 0 / 50%);
+    font-size: 1rem;
+    padding: 1.5rem;
+    font-weight: 400;
+    background-color: tomato;
+    color: darkred;
+    font-family: cursive;
+    margin-left: -15px;
+    margin-right: 15px;
+  }
+
+  .bocadillo-redondo:before {
+    border: 25px solid tomato;
+    content: "";
+    border-left-color: tomato;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    bottom: -24px;
+    right: 174px;
+    transform: rotate(26deg);
+  }
+
+  .container-bocadillo {
+    position: absolute;
+    margin-top: -18rem;
+    margin-left: 7.5rem;
+  }
+
+  .pow{
+    position: relative;
+    margin-left: -8rem;
+    margin-top: -1rem;
+  }
